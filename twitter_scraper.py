@@ -49,8 +49,15 @@ def tweets_scraper(search_term,
 
     Returns
     -------
-    data : TYPE
-        DESCRIPTION.
+    data : pandas dataframe
+        returns data as a pandas dataframe.
+        
+    Example
+    -------
+        data = tweets_scraper(search_term="Carbon capture",
+                              search_limit=2000,
+                              since="2015-01-01",
+                              export_data=True)
 
     """
 
